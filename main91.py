@@ -1,4 +1,4 @@
-import math
+import math 
 
 
 def task_5_91(n, x):
@@ -8,7 +8,7 @@ def task_5_91(n, x):
     if not 1 <= n <= 10:
         return "n должно быть от 1 до 10"
     
-    result = 1  # Начинаем с 1
+    result = 1  
     factorial = 1
     x_power = 1
     for i in range(1, n + 1):
